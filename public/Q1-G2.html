@@ -1,0 +1,21 @@
+<h1> CARLOS, Yna C - Sr05 - Aug 11, 2025</h1>
+<h2> Second Graded Exercise - First Quarter</h2>
+
+<p> My friends are: </p>
+
+<p> Friend 1: </p> <input id="in1" type="text" placeholder="Friend 1"> <br>
+<p> Friend 2: </p> <input id="in2" type="date" placeholder="Friend 2"> <br>
+
+<button onclick="printFriends()"> Show Friends </button>
+
+<div id="out1"></div>
+
+<script> 
+    function printFriends() {
+        var friend1 = document.getElementById("in1").value;
+        var friend2 = document.getElementById("in2").value;
+
+        out1.innerHTML += in1.value + "<br>";
+        out1.innerHTML += in2.value + "<br>";
+    }
+</script>
